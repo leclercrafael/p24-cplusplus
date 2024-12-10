@@ -1,4 +1,4 @@
-#include < iostream>
+#include <iostream>
 #include <limits>
 void swap(int* a, int* b) {
    int t {*a};
@@ -9,5 +9,5 @@ int main() {
    int x {0};
    int y {83};
    swap(&x, &y);
-return 0;
+   return 0;
 }
